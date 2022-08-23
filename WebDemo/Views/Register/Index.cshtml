@@ -1,0 +1,49 @@
+﻿@model Entity.Concrete.User
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/GeneralLayout.cshtml";
+}
+
+
+	<section id="form"><!--form-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-1">
+					<div class="login-form"><!--login form-->
+						<h2>Giris Yap</h2>
+						@using(Html.BeginForm("Login","Register",FormMethod.Post)){
+							<input type="email" placeholder="Email" name="UserEmail" />
+							<input type="password" placeholder="Sifre" name="UserPassword"/>
+
+							
+							<button type="submit" class="btn btn-default">Giris</button>
+						}
+					</div><!--/login form-->
+				</div>
+				<div class="col-sm-1">
+					<h2 class="or">Ya da</h2>
+				</div>
+				<div class="col-sm-4">
+					<div class="signup-form"><!--sign up form-->
+						@using(Html.BeginForm("Index","Register",FormMethod.Post)){
+							<input type="text" placeholder="Ad" name="UserFirstName" />
+							@Html.ValidationMessageFor(x => x.UserFirstName)
+
+							<input type="text" placeholder="Soyad" name="UserLastName" />
+							@Html.ValidationMessageFor(x => x.UserLastName)
+
+							<input type="email" placeholder="Email" name="UserEmail" />
+							@Html.ValidationMessageFor(x => x.UserEmail)
+
+							<input type="password" placeholder="Sifre" name="UserPassword" />
+							@Html.ValidationMessageFor(x => x.UserPassword)
+
+							<button type="submit" class="btn btn-default">Kayit Ol</button>
+						}
+					</div><!--/sign up form-->
+				</div>
+			</div>
+		</div>
+	</section><!--/form-->
+
+

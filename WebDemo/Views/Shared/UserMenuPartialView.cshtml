@@ -1,0 +1,36 @@
+﻿@using Entity.Concrete
+@model User
+<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="/Home/Index" class="active">Ana Sayfa</a></li>
+								<li><a href="/Product/Index" class="active">Urunler</a></li> 
+								<li class="dropdown">@Model.UserFirstName<i class="fa fa-angle-down"></i>
+                                    <ul role="menu" class="sub-menu">
+										 <li><a href="/Product/ProductListUserById/@Model.UserId">Ürünlerim</a></li>
+										<li><a href="/Offer/OfferListUserById/@Model.UserId">Verdigim Teklifler</a></li>
+                                    </ul>
+                                </li> 
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Arama"/>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->

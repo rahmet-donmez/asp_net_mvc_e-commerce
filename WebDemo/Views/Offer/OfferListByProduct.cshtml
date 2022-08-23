@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Entity.Concrete.Offer>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+@foreach(var item in Model){
+    <p> @item.OfferPrice</p>
+    <br>
+}

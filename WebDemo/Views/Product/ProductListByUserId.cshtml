@@ -1,0 +1,38 @@
+﻿@using Entity.Concrete
+@model List<Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<section>
+		<div class="container">
+			<div class="row">				
+				<div class="col-sm-9 padding-right">
+					<div class="features_items"><!--features_items-->
+						<h2 class="title text-center">URUNLERIM</h2>
+						@foreach(var item in Model){
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="@item.ProductImg" alt="" />
+										<h2>@item.ProductPrice TL</h2>
+										<p>@item.ProductName</p>
+										<a href="/Product/ProductDetails/@item.ProductId" class="btn btn-default add-to-cart">Incele</a>
+									</div>
+									
+								</div>
+								
+							</div>
+						</div>
+						<br>
+						}
+					</div><!--features_items-->			
+				</div>
+			</>
+		</div>
+	</div>
+	</section>
+	
+
