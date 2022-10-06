@@ -20,7 +20,7 @@ namespace WebDemo.Controllers
         }
         public IActionResult ProductDetails(int id)
         {
-            var values = pm.GetById(id);
+            var values = pm.GetProductById(id);
             return View(values);
         }
 

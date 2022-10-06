@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r/iOgYOANeZTupThhoQO54ACo0//i4eEH23j2G8EB0/JDa3jYqMYan3q4bgdlRjkklBTbQVdkYkHYTpFew727g==",
+  "dgSpecHash": "6dRPt4uL9pGFbYozUBf4f02syjGRe6rfzkv/q95n6mKw0twQURZoW7G77mvLqtPFZyxXrafSR6RHd8gwsgf1sA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahmet\\Documents\\WebDemo\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahmet\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\rahmet\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.1.2\\fluentvalidation.aspnetcore.11.1.2.nupkg.sha512",

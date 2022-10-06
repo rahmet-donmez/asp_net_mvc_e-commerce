@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rahmet\\Documents\\WebDemo\\CoreLayer\\CoreLayer.csproj": {}
+    "C:\\Users\\rahmet\\Documents\\E-commerce\\CoreLayer\\CoreLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rahmet\\Documents\\WebDemo\\CoreLayer\\CoreLayer.csproj": {
+    "C:\\Users\\rahmet\\Documents\\E-commerce\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rahmet\\Documents\\WebDemo\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\rahmet\\Documents\\E-commerce\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "C:\\Users\\rahmet\\Documents\\WebDemo\\CoreLayer\\CoreLayer.csproj",
+        "projectPath": "C:\\Users\\rahmet\\Documents\\E-commerce\\CoreLayer\\CoreLayer.csproj",
         "packagesPath": "C:\\Users\\rahmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rahmet\\Documents\\WebDemo\\CoreLayer\\obj\\",
+        "outputPath": "C:\\Users\\rahmet\\Documents\\E-commerce\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",

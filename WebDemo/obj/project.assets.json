@@ -9625,11 +9625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rahmet\\Documents\\WebDemo\\WebDemo\\WebDemo.csproj",
+      "projectUniqueName": "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\WebDemo\\WebDemo.csproj",
       "projectName": "WebDemo",
-      "projectPath": "C:\\Users\\rahmet\\Documents\\WebDemo\\WebDemo\\WebDemo.csproj",
+      "projectPath": "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\WebDemo\\WebDemo.csproj",
       "packagesPath": "C:\\Users\\rahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rahmet\\Documents\\WebDemo\\WebDemo\\obj\\",
+      "outputPath": "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\WebDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9646,11 +9646,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\rahmet\\Documents\\WebDemo\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\rahmet\\Documents\\WebDemo\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\rahmet\\Documents\\WebDemo\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\rahmet\\Documents\\WebDemo\\Entity\\Entity.csproj"
+            "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\Entity\\Entity.csproj"
             }
           }
         }
@@ -9712,7 +9712,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -54,18 +54,20 @@ namespace WebDemo.Controllers
              && x.UserPassword == user.UserPassword);
             if (value != null)
             {
-                var claims = new List<Claim>
+               /* var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name,user.UserEmail)
                 };
                 var useridentity = new ClaimsIdentity(claims, "a");
                 ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
-                await HttpContext.SignInAsync(principal);
-                return RedirectToAction("Index", "User");
+                //await HttpContext.SignInAsync(principal);*/
+
+               HttpContext.Session.SetString("UserEmail",user.UserEmail);
+                return RedirectToAction("Index", "Product");
             }
             else
             {
-                return View();
+                return RedirectToAction("Index", "Register");
             }
 
 

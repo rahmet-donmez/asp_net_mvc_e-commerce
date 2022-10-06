@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebDemo.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class UserController : Controller
     {
         public IActionResult Index()

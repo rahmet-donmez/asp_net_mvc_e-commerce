@@ -37,10 +37,10 @@ namespace BusinessLayer.Concrete
         {
             return ıproduct.ListAll();
         }
-       /* public List<Product> GetProductById(int id)
+        public List<Product> GetProductById(int id)
         {
             return ıproduct.GetListAll(x => x.ProductId==id);
-        }*/
+        }
 
         public void ProductAdd(Product product)
         {

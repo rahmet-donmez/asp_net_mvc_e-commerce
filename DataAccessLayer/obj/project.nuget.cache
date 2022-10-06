@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "09GqTcFgKssBfLNesrCXtkgwLST126wX4ZwN6e/3MepNbC0w/K0wu54y0MgSSaHOcP0GKsrKvUW1Hs8l8YOz1g==",
+  "dgSpecHash": "cwuLqI9dbeqjU3g/+9hvlWOUaSpfvIwRdyr+xzPEBgJUHDgGHdj+H3d03Csqa6zNGdtx8dUlCFpvvatxSI1Png==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rahmet\\Documents\\WebDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\rahmet\\Belgelerim\\e-commerce\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahmet\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rahmet\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
